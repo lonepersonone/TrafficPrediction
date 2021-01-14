@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_account"
+            android:icon="@drawable/addaccount_foreground"
+            android:title="切换用户" />
+
+        <item
+            android:id="@+id/navigation_setting"
+            android:icon="@drawable/setting_foreground"
+            android:title="账号信息" />
+
+        <item
+            android:id="@+id/navigation_register"
+            android:icon="@drawable/register_foreground"
+            android:title="注册账号" />
+
+
+    </group>
+</menu>
